@@ -1,0 +1,88 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap; /* mobile-safe */
+  overflow: visible;
+}
+
+.purple {
+  color: var(--ifm-color-primary);
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.headingGridBackground {
+  background-color: #ffffff; /* pure white background */
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 50px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 50px
+    );
+  background-size: 50px 50px; /* larger squares */
+  padding: 2rem; /* space around the heading */
+  display: inline-block; /* shrink background to heading width */
+  border-radius: 0.5rem; /* optional rounded corners */
+}
+
+.description {
+  max-width: 600px; /* limit width */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.darkButton {
+  background-color: var(--ifm-color-primary-darkest);
+  border-color: var(--ifm-color-primary-darkest);
+  color: white;
+}
+
+.shadowButton {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.shadowButton:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+

@@ -1,0 +1,32 @@
+.afterButtonsSection {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.floatingImage {
+  position: absolute;
+
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+
+  /* big + responsive */
+  width: min(75vw, 1000px);
+  max-width: 95vw;
+  height: auto;
+
+  filter: drop-shadow(0 40px 80px rgba(0, 0, 0, 0.4));
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .floatingImage {
+    width: 90vw;
+  }
+}
