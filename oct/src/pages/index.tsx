@@ -35,7 +35,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className={clsx('button button--primary button--lg', styles.shadowButton)}
-            to="/docs/intro"
+            to=""
           >
             Get Started
           </Link>

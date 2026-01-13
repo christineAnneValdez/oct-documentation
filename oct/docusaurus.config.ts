@@ -24,8 +24,11 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'christineAnneValdez', // Usually your GitHub org/user name.
   projectName: 'oct-documentation', // Usually your repo name.
-
+  deploymentBranch: 'main',
+ trailingSlash: false,
   onBrokenLinks: 'throw',
+onBrokenMarkdownLinks: 'warn',
+
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -102,10 +105,10 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
+            //{
+              //label: 'Tutorial',
+             // to: '',
+           // },
           ],
         },
         {

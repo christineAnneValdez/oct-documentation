@@ -18,19 +18,19 @@ export default function Home() {
             </p>
 
             <div className="mt-10 flex justify-center gap-4">
-              <Link
-                to="/docs/intro"
+              {/* <Link
+                to=""
                 className="rounded-lg bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 transition"
               >
                 Get Started
-              </Link>
+              </Link> */}
 
-              <Link
-                to="/docs"
+              {/* <Link
+                to=""
                 className="rounded-lg border border-slate-300 px-6 py-3 font-medium text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800 transition"
               >
                 View Docs
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
@@ -45,12 +45,12 @@ export default function Home() {
               <p className="mt-2 text-slate-600 dark:text-slate-400">
                 Learn what OCT is and how it works.
               </p>
-              <Link
-                to="/docs/intro"
+              {/* <Link
+                to=""
                 className="mt-4 inline-block text-blue-600 hover:underline"
               >
                 Read more →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="rounded-xl border border-slate-200 p-6 dark:border-slate-800">
@@ -60,12 +60,12 @@ export default function Home() {
               <p className="mt-2 text-slate-600 dark:text-slate-400">
                 Step-by-step guides for using OCT.
               </p>
-              <Link
-                to="/docs/guides"
+              {/* <Link
+                to=""
                 className="mt-4 inline-block text-blue-600 hover:underline"
               >
                 Read more →
-              </Link>
+              </Link> */}
             </div>
 
             <div className="rounded-xl border border-slate-200 p-6 dark:border-slate-800">
@@ -75,12 +75,12 @@ export default function Home() {
               <p className="mt-2 text-slate-600 dark:text-slate-400">
                 API and technical reference for OCT.
               </p>
-              <Link
-                to="/docs/reference"
+              {/* <Link
+                to=""
                 className="mt-4 inline-block text-blue-600 hover:underline"
               >
                 Read more →
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
