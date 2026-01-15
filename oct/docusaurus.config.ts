@@ -24,7 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'christineAnneValdez', // Usually your GitHub org/user name.
   projectName: 'oct-documentation', // Usually your repo name.
-  deploymentBranch: 'deployment',
+  deploymentBranch: 'main',
  trailingSlash: false,
   onBrokenLinks: 'warn',
 onBrokenMarkdownLinks: 'warn',
