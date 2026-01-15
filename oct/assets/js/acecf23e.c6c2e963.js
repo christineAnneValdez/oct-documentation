@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkoct=globalThis.webpackChunkoct||[]).push([[903],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/oct-documentation/blog","blogTitle":"Blog","authorsListPath":"/oct-documentation/blog/authors"}')}}]);

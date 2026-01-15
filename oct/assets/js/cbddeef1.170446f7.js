@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkoct=globalThis.webpackChunkoct||[]).push([[25],{6320(o){o.exports=JSON.parse('{"metadata":{"permalink":"/oct-documentation/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
