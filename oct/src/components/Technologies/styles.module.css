@@ -1,0 +1,79 @@
+/* Section container */
+.section {
+  padding: 5rem 0;
+  width: 100%;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  background: linear-gradient(
+    90deg,
+    var(--ifm-color-primary-dark),
+    var(--ifm-color-primary),
+    var(--ifm-color-primary-light)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Technology card */
+.card {
+  background: #f6f6f6;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 20px rgba(174, 109, 171, 0.08);
+  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 10%, white 90%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Icon */
+.icon {
+  font-size: 3rem;
+  color: black;
+}
+
+/* Label */
+.label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  .title {
+    font-size: 1.7rem;
+  }
+}

@@ -1,16 +1,18 @@
 import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function HomepageAbout(): ReactNode {
+  const octDashboard = useBaseUrl('img/oct-dashboard.png');
+  const octTask = useBaseUrl('img/oct-task.png');
   return (
     <section className={styles.section}>
       <div className={clsx('container', styles.grid)}>
 
-        {/* ROW 1 */}
-        <div className={styles.imageWrapper}>
+        <div>
           <img
-            src="/img/oct-dashboard.png"
+            src={octDashboard}
             alt="OCT Dashboard"
             className={styles.image}
           />
@@ -31,7 +33,6 @@ export default function HomepageAbout(): ReactNode {
           </p>
         </div>
 
-        {/* ROW 2 */}
         <div className={styles.card}>
           <h2 className={styles.title}>
             The One-Click <br /> Inspiration
@@ -44,9 +45,9 @@ export default function HomepageAbout(): ReactNode {
           </p>
         </div>
 
-        <div className={styles.imageWrapper}>
+        <div>
           <img
-            src="/img/oct-taskbar.png"
+            src={octTask}
             alt="One Click Task UI"
             className={styles.image}
           />

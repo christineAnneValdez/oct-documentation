@@ -17,19 +17,6 @@
   padding: 0 1rem;
 }
 
-/* Image wrapper */
-.imageWrapper {
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 30px rgba(174, 109, 171, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 1px solid color-mix(in srgb, var(--ifm-color-primary) 20%, transparent 80%);
-}
-
-.imageWrapper:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(174, 109, 171, 0.15);
-}
 
 /* Image styling */
 .image {
@@ -40,14 +27,11 @@
   transition: transform 0.5s ease;
 }
 
-.imageWrapper:hover .image {
-  transform: scale(1.05);
-}
 
 /* Card styling */
 .card {
   padding: 2.5rem;
-  background: white;
+  background: #F6F6F6;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(174, 109, 171, 0.08);
   height: 100%;

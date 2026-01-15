@@ -6,9 +6,11 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepagePicture';
 import HomepageAbout from '@site/src/components/About/about';
 import HomepageFeature from '@site/src/components/Feature/feature';
+import PoweredTechnologies from '../components/Technologies/technologies';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
 
 function HomepageHeader() {
   return (
@@ -27,7 +29,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
             className={clsx('button button--lg', styles.darkButton, styles.shadowButton)}
-            href="https://github.com/your-org/your-repo"
+            href="https://github.com/mct-net/oneclicktask.git"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,6 +60,7 @@ export default function Home(): ReactNode {
       </main>
       <HomepageAbout />
       <HomepageFeature />
+      <PoweredTechnologies />
     </Layout>
   );
 }

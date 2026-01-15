@@ -75,10 +75,12 @@ onBrokenMarkdownLinks: 'warn',
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      respectPrefersColorScheme: true,
+       defaultMode: 'light',
+  disableSwitch: true, // <--- disables the toggle
+  respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'My Site',
+      title: 'OCT',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -91,9 +93,9 @@ onBrokenMarkdownLinks: 'warn',
           label: 'Tutorial',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        {to: 'about', label: 'About', position: 'left'},
+        {to: 'feature', label: 'Feature', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/mct-net/oneclicktask.git',
           label: 'GitHub',
           position: 'right',
         },

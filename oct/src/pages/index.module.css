@@ -40,8 +40,9 @@
 }
 
 .headingGridBackground {
-  background-color: #ffffff; /* pure white background */
-  background-image: repeating-linear-gradient(
+  background-image: 
+    url('/img/bg.png'),
+    repeating-linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05) 1px,
@@ -55,11 +56,32 @@
       transparent 1px,
       transparent 50px
     );
-  background-size: 50px 50px; /* larger squares */
-  padding: 2rem; /* space around the heading */
-  display: inline-block; /* shrink background to heading width */
-  border-radius: 0.5rem; /* optional rounded corners */
+
+  background-size: 
+    cover,
+    50px 50px,
+    50px 50px;
+
+  background-repeat: 
+    no-repeat,
+    repeat,
+    repeat;
+
+  background-position: 
+    center,
+    0 0,
+    0 0;
+
+  /* Make grid blend on top of image */
+  background-blend-mode: overlay, normal, normal;
+
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  color: #fff;
 }
+
+
 
 .description {
   max-width: 600px; /* limit width */
