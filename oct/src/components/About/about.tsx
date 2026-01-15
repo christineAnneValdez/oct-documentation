@@ -20,7 +20,7 @@ export default function HomepageAbout(): ReactNode {
 
         <div className={styles.card}>
           <h2 className={styles.title}>
-            The Thinking Behind <br /> One Click Task
+            The Thinking Behind <br /> One-Click Task
           </h2>
           <p className={styles.text}>
             <strong>OCT (One Click Task)</strong> was created to address the slow
@@ -28,7 +28,7 @@ export default function HomepageAbout(): ReactNode {
             Most tools require multiple steps just to add or update tasks,
             which can be inefficient for users who manage tasks throughout the day.
             OCT focuses on speed and simplicity by offering a true one-click workflow,
-            allowing users to add and manage tasks instantly—without unnecessary
+            allowing users to add and manage tasks instantly without unnecessary
             steps or extra navigation.
           </p>
         </div>

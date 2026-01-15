@@ -22,21 +22,21 @@ const FeatureList: FeatureItem[] = [
     title: 'One-Click Task Applications',
     description:
       'Easily customize and manage tasks with one click set colors, star or flag them, update their status instantly, and move tasks to Backlog or Trash effortlessly.',
-    image: '/img/features/hashtag-filter.png',
+    image: '/img/InstantTaskCreation.png',
     alt: 'One-Click Task applications',
   },
   {
     title: 'Hashtag Filtering',
     description:
       'Automatically detect hashtags and filter tasks instantly by category with a single click.',
-    image: '/img/features/pause-resume.png',
+    image: '/img/InstantTaskCreation.png',
     alt: 'Hashtag Filtering',
   },
   {
     title: 'Task Advance Options (Time Quick-Add Feature)',
     description:
       'Users can quickly set due dates by selecting preset time options, automatically updating the task deadline with a single click.',
-    image: '/img/features/keyboard-shortcuts.png',
+    image: '/img/InstantTaskCreation.png',
     alt: 'Task Advance Options (Time Quick-Add Feature)',
   },
 ];
@@ -50,7 +50,7 @@ function FeatureCard({ title, description, image, alt }: FeatureItem) {
         <div className={styles.cardContent}>
           <div className={styles.imageContainer}>
   <Link
-    to="/docs/intro" /* change this to your target */
+    to="/docs/features" /* change this to your target */
     className={styles.playLink}
     aria-label="Play feature demo"
   >
@@ -73,7 +73,7 @@ function FeatureCard({ title, description, image, alt }: FeatureItem) {
             <h3 className={styles.featureTitle}>{title}</h3>
             <p className={styles.featureDescription}>{description}</p>
 
-            <Link className={styles.getStartedButton} to="">
+            <Link className={styles.getStartedButton} to="/docs/intro">
               Get Started
             </Link>
           </div>
@@ -93,7 +93,7 @@ export default function HomepageFeatures(): ReactNode {
             <span className={styles.subtitle}> Minimal Effort</span>
           </h2>
           <p className={styles.sectionDescription}>
-            Everything you need to manage tasks efficiently — without clutter.
+            Everything you need to manage tasks efficiently without clutter.
           </p>
         </div>
 
