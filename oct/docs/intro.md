@@ -68,7 +68,7 @@ npm install -g pnpm
 ```
 ## 📙 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on:
+
 
 - Code of Conduct
 - Development workflow
