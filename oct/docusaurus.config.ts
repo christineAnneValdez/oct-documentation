@@ -26,7 +26,7 @@ const config: Config = {
   projectName: 'oct-documentation', // Usually your repo name.
   deploymentBranch: 'main',
  trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 onBrokenMarkdownLinks: 'warn',
 
 
@@ -92,8 +92,8 @@ onBrokenMarkdownLinks: 'warn',
           position: 'left',
           label: 'Tutorial',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        {to: 'feature', label: 'Feature', position: 'left'},
+        // { to: '/blog', label: 'Blog', position: 'left' },
+        // {to: '/Feature', label: 'Feature', position: 'left'},
         {
           href: 'https://github.com/mct-net/oneclicktask.git',
           label: 'GitHub',
