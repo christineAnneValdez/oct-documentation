@@ -1,0 +1,9 @@
+[build]
+# Install dependencies and build the Docusaurus site
+command = "npm install && npm run build"
+# The folder containing the static files
+publish = "build"
+
+[env]
+# Make sure Dokploy uses Node 20+
+NODE_VERSION = "20"
